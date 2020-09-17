@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 
-<html>
-    <h1 id="title">Tell me about Music</h1>
+<html lang="en">
+  
 
 <head>
 
 </head>
 
 <body>
+    <h1 id="title">Tell me about Music</h1>
+    <p id="description">
+    This is a survey where you can tell us about the music you're inspired by.</p>
+<script type="text/javascript" scr="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
 
 </body>
 
