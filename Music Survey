@@ -7,6 +7,9 @@
         font-family: sans-serif;
         padding-left: 20%;
         padding-right: 20%;
+        background-image:url(/home/cs/Pictures/pexels-photo-92069.jpeg);
+        background-repeat: repeat;
+        background-attachment: fixed;
       }
       label {
         font-size: 18px;
