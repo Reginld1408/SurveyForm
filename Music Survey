@@ -1,5 +1,74 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+          body {
+        font-family: sans-serif;
+        text-align:center;
+       
+        background-image:url(https://images.pexels.com/photos/92069/pexels-photo-92069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-repeat: repeat;
+        background-attachment: fixed;
+}
+#title{
+    font-size:45px;
+}
+#description{
+  font-size:20px;
+}
+#body{
+  width:600px;
+  padding:30px;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  background-color:#1466c9;
+  font-size:20px;
+  color:black;
+}
 
+#name{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+#email{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+#number{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+#dropdown{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+  
+  }
+#comment{
+  width:590px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+  
+}
+#submit{
+  width:590px;
+  padding:20px;
+  font-size:20px;
+  border-radius:10px;
+  border:none;
+  margin-top:3%;
+  color:white;
+  background-color:#102d61;
+  
+}
+    </style>
+  </head>
+    <body>
 <h1 id="title">Tell Me About Music</h1>
 
 <p id="description">This is a survey where you can tell us about the music you're inspired by.</p>
@@ -69,77 +138,13 @@
 <br>
 <textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
 <br>
+</div>
 <input id="submit" type="submit" value="Submit">
-            
 </form>
 
-</div>
+<script type="text/javacript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+</body>
 
-CSS
-
- body {
-  font-family: sans-serif;
-  text-align:center;
-  background-image:url(https://images.pexels.com/photos/92069/pexels-photo-92069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
-#title{
-    font-size:45px;
-}
-#description{
-  font-size:20px;
-}
-#body{
-  width:600px;
-  padding:30px;
-  margin:auto;
-  border-radius:10px;
-  text-align:left;
-  background-color:#1466c9;
-  font-size:20px;
-  color:black;
-}
-
-#name{
-  width:560px;
-  padding:15px;
-  border-radius:10px;
-}
-#email{
-  width:560px;
-  padding:15px;
-  border-radius:10px;
-}
-#number{
-  width:560px;
-  padding:15px;
-  border-radius:10px;
-}
-#dropdown{
-  width:560px;
-  padding:15px;
-  border-radius:10px;
-  
-  }
-#comment{
-  width:590px;
-  padding:10px;
-  border-radius:10px;
-  border:none;
-  
-}
-#submit{
-  width:590px;
-  padding:20px;
-  font-size:20px;
-  border-radius:10px;
-  border:none;
-  margin-top:3%;
-  color:white;
-  background-color:#102d61;
-  
-}
-
+</html>
 
