@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <style>
+          body {
+        font-family: sans-serif;
+        text-align:center;
+       
+        background-image:url(https://images.pexels.com/photos/92069/pexels-photo-92069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-repeat: repeat;
+        background-attachment: fixed;
+}
+#title{
+    font-size:45px;
+}
+#description{
+  font-size:20px;
+}
+#body{
+  width:600px;
+  padding:30px;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  background-color:#1466c9;
+  font-size:20px;
+  color:black;
+}
+
+#name{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+#email{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+#number{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+#dropdown{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+  
+  }
+#comment{
+  width:590px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+  
+}
+#submit{
+  width:590px;
+  padding:20px;
+  font-size:20px;
+  border-radius:10px;
+  border:none;
+  margin-top:3%;
+  color:white;
+  background-color:#102d61;
+  
+}
+    </style>
+  </head>
+    <body>
+<h1 id="title">Tell Me About Music</h1>
+
+<p id="description">This is a survey where you can tell us about the music you're inspired by.</p>
+
+<div id="body">
+
+<form id="survey-form">
+
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  
+   <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+  
+  <input id="number" type="number" placeholder="Age" min="12" max="50" required>
+  
+  <p>What Is Your Favorite Genre of Music:</p>
+  <select id="dropdown">
+    
+    <option value="electronic">Electronic</option>
+    <option value="rock.">Rock</option>
+    <option value="jazz">Jazz</option>
+    <option value="pop">Pop</option>
+    <option value="classical">Classical</option>
+          <option value="opera">Opera</option><option value="hip-hop">Hip-hop</option><option value="ambient">Ambient</option>
+    <option value="other">Other</option>
+
+    </select>
+  
+  <p>What Is Your Favorite Instrument?</p>
+  
+  <input type="radio" name="instruments" value="1">Drums</input>
+  <br>
+  <input type="radio" name="instruments" value="2">Guitar</input>
+  <br>
+ <input type="radio" name="instruments" value="3">Piano</input>
+<br>
+ <input type="radio" name="instruments" value="4">Bass</input>
+<br>
+ <input type="radio" name="instruments" value="5">Violin</input>
+<br>
+ <input type="radio" name="instruments" value="6">Cello</input>
+<br>
+ <input type="radio" name="instruments" value="7">Saxophone</input>
+<br>
+<input type="radio" name="instruments" value="8">Other</input>
+
+<p>Do You Have Synesthesia?</p>
+
+<input type="checkbox" name="yes" value="1">Yes</input>
+<br>
+ <input type="checkbox" name="no" value="2">No </input>
+<br>
+ <input type="checkbox" name="notsure" value="3">Not Sure</input>
+<br>
+<br>
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+</form>
+</div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
